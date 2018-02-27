@@ -12,7 +12,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Result Page</title>
-        <link rel="stylesheet" type="text/css" href="resultStyle.css">
+        <link rel="stylesheet" type="text/css" href="siteStyle.css">
     </head>
     
     <%
@@ -87,6 +87,7 @@
                           <tr>
                               <td>Post Tax Pay</td>
                               <td><% double posttaxpay=grosspay-Taxes;
+                                    out.println(posttaxpay);
                               %></td>
                                       
                           <tr>
@@ -102,8 +103,7 @@
                       </tbody>
                 </table>
                 
-                <input type="submit" value="Submit" id="submit">
-                <input type="reset" value="Clear" id="clear">
+                
                 
 
             </form>

@@ -41,6 +41,7 @@
                       </tbody>
                 </table>
                 
+                <br>
                 <input type="submit" value="Submit" id="submit">
                 <input type="reset" value="Clear" id="clear">
                 
